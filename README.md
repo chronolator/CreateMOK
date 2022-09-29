@@ -3,16 +3,24 @@ Bash script which will attempt to create a Machine Owner Key (MOK) on a UEFI sys
 
 # Dependencies
 Ensure your system is utilizing UEFI.  You can check by seeing if `/sys/firmware/efi` exists.
-`cat /sys`
 
 # Install
 Clone the repository:
-```git clone https://github.com/chronolator/CreateMOK.git```
+
+```
+git clone https://github.com/chronolator/CreateMOK.git
+```
 
 Enter the folder: 
-```cd CreateMOK```
+
+```
+cd CreateMOK
+```
 
 Run bash script:
-```./make-key.sh epicname 1```
+
+```
+./make-key.sh epicname 1
+```
 
 reboot
