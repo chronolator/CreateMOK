@@ -15,14 +15,9 @@ Enter the folder:
 cd CreateMOK
 ```
 
-Run bash script:  
+Run part 1 of the bash script:  
 ```
-./make-key.sh <CN/Common Name> <Part 1|2>
-```
-
-Example:  
-```
-./make-key.sh epicname 1
+./make-key.sh <Name> 1
 ```
 
 Enter a temporary password when prompted to.  
@@ -46,6 +41,8 @@ Enter the temporary password from before.
 
 Run part 2 of the bash script:  
 ```
-./make-key.sh epicname 2
+./make-key.sh <Name> 2
 ```  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/createMOK-part2.png)
+
+You can now start signing LKMs.
