@@ -11,13 +11,11 @@ Clone the repository:
 git clone https://github.com/chronolator/CreateMOK.git
 ```
 
-
 Enter the folder: 
 
 ```
 cd CreateMOK
 ```
-
 
 Run bash script:
 
@@ -25,4 +23,5 @@ Run bash script:
 ./make-key.sh epicname 1
 ```
 
-reboot
+Enter a temporary password when prompted to.
+![alt text](https://github.com/inessadl/readme/blob/master/img/ff_logo2013.png)
