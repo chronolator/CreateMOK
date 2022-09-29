@@ -1,5 +1,7 @@
 # CreateMOK
-Bash script which will attempt to create a Machine Owner Key (MOK) on a UEFI system.  This will allow a user to sign Loadable Kernel Modules (LKMs) when secure boot is enabled.  
+Bash script which will attempt to create a Machine Owner Key (MOK) on a UEFI system.  
+On a UEFI system, if SecureBoot is enabled, loadable kernel modules (LKMs) cannot be installed.
+This script will help to create a key to sign LKMs when SecureBoot is enabled.  
 
 ## Dependencies
 Ensure your system is utilizing UEFI.  
@@ -34,7 +36,7 @@ Select `Enroll MOK`.
 Select `Continue`.  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/MOK-continue.png)
 
-Select `Yes`  
+Select `Yes`.  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/MOK-yes.png)
 
 Enter the temporary password from before.  
