@@ -26,7 +26,8 @@ Enter a temporary password when prompted to.
 You will be prompted to reboot, so that you can enter MOK utility management.  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/reboot.png)
 
-You might have to press a key for the MOK utility management tool to display.  Select `Enroll MOK`
+You might have to press a key for the MOK utility management tool to display.  
+Select `Enroll MOK`  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/EnterMOK-management.png)
 
 Select `continue`  
