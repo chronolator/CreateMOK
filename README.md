@@ -17,6 +17,11 @@ cd CreateMOK
 
 Run bash script:  
 ```
+./make-key.sh <CN/Common Name> <Part 1|2>
+```
+
+Example:  
+```
 ./make-key.sh epicname 1
 ```
 
@@ -27,9 +32,20 @@ You will be prompted to reboot, so that you can enter MOK utility management.
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/reboot.png)
 
 You might have to press a key for the MOK utility management tool to display.  
-Select `Enroll MOK`  
+Select `Enroll MOK`.  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/EnterMOK-management.png)
 
-Select `continue`  
+Select `Continue`.  
 ![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/MOK-continue.png)
 
+Select `Yes`  
+![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/MOK-yes.png)
+
+Enter the temporary password from before.  
+![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/MOK-temp-password.png)
+
+Run part 2 of the bash script:  
+```
+./make-key.sh epicname 2
+```  
+![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/createMOK-part2.png)
