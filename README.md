@@ -1,6 +1,6 @@
 # CreateMOK
 Bash script which will attempt to create a Machine Owner Key (MOK) on a UEFI system.  
-On a UEFI system, if SecureBoot is enabled, loadable kernel modules (LKMs) cannot be installed.
+On a UEFI system, if SecureBoot is enabled, loadable kernel modules (LKMs) cannot be installed.  
 This script will help to create a key to sign LKMs when SecureBoot is enabled.  
 
 ## Dependencies
