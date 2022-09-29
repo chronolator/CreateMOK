@@ -24,4 +24,10 @@ Run bash script:
 ```
 
 Enter a temporary password when prompted to.
-![alt text](https://github.com/inessadl/readme/blob/master/img/ff_logo2013.png)
+![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/temp-password.png)
+
+You will be prompted to reboot, so that you can enter MOK utility management.
+![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/reboot.png)
+
+You might have to press a key for the MOK utility management tool to display.
+![alt text](https://github.com/chronolator/CreateMOK/blob/master/images/EnterMOK-management.png)
