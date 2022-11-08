@@ -50,7 +50,7 @@ if [[ "$PART" == 1 ]]; then
     if [[ $DISTRO == ${DEB[0]} ]] || [[ $DISTRO == ${DEB[1]} ]] || [[ $DISTRO == ${DEB[2]} ]] || [[ $DISTRO == ${DEB[3]} ]]; then
         allcheck 0 "Attempting to install kernel headers and gcc" apt install linux-headers-$(uname -r) build-essential -y
     elif [[ $DISTRO == ${RHEL[0]} ]] || [[ $DISTRO == ${RHEL[1]} ]] || [[ $DISTRO == ${RHEL[2]} ]] || [[ $DISTRO == ${RHEL[3]} ]]; then
-        allcheck 0 "Attemping to install kernel headers and gcc" yum install kernel kernel-devel kernel-headers gcc -y
+        allcheck 0 "Attempting to install kernel headers and gcc" yum install kernel kernel-devel kernel-headers gcc -y
     else
         info 1 "Unable to guess the OS distro"
         echo ""
